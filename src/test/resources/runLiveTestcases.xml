@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Live Guru" parallel="false">
+  <parameter name="url" value="http://live.guru99.com"/>
+  
+     <test name="Run on CHROME">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.liveguru.account.Account_01_RegisterAndLogin" />
+    </classes>
+  </test> 
+  
+  
+</suite> 

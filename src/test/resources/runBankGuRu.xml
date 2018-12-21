@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Bank Guru" parallel="false">
+<!--<suite name="Bank Guru" parallel="tests" thread-count="3">-->
+ 
+     <test name="Run on CHROME">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.bankguru.login.Login_02_CreateUserAndLogin_POM"/>
+      <class name="com.bankguru.login.Login_03_CreateUserAndLogin_POM"/>
+    </classes>
+  </test> 
+  
+ 
+  
+</suite> 
